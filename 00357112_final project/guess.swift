@@ -27,6 +27,11 @@ class guess: UIViewController {
     
 override func viewDidLoad() {
         super.viewDidLoad()
+    
+    an_record.removeAll()
+    a_record.removeAll()
+    b_record.removeAll()
+    
         q0 = Int(UInt32(arc4random_uniform(9)+1))
     
         q1 = Int(UInt32(arc4random_uniform(9)+1))
